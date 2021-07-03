@@ -95,6 +95,7 @@ hr {
   margin-bottom: 0;
   padding-bottom: 30px;
   text-align: left;
+  font-weight: bold;
 }
 
 /* Styling all of the links on the webpage with pseudo-classes */
