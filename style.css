@@ -1,0 +1,108 @@
+/*
+CSS properties required:
+1. background, color, font-family, font-size, height, margin, padding, text-align
+2. styled links using pseudo-classes
+3. Comments throughout CSS that explains my code
+*/
+
+/* Setting all HTML elements with border-box sizing */
+* {box-sizing: border-box;}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+header p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5px;
+}
+
+/* Setting the background image, upper padding, and main font */
+main {
+  background-image: url("images/background.jpg");
+  background-size: 100%;
+  padding-top: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Rounding the corners of my profile picture */
+img {
+  height: 625px;
+  border-radius: 32px;
+}
+
+/* Styling rules for the intro section of the page */
+.intro {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 65px;
+  margin-top: 25px;
+  text-shadow: 2px 2px 3px white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.intro p {
+  margin-top: 20px;
+}
+
+/* Styling rules for the main content of the page */
+.main-content {
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.main-content h2 {
+  text-transform: uppercase;
+}
+
+/* Styling rule for the hr separating "About Me" and "Interests" */
+hr {
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.interests-list {
+  text-align: left;
+}
+
+/* Styling rules for the contact section of the page to make it more readable */
+.contact-angela {
+  text-shadow: 2px 2px 3px white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.contacts-list {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+/* Styling all of the links on the webpage with pseudo-classes */
+a:link     { color: blue;  }
+a:visited  { color: blue;   }
+a:hover    { color: green; }
+a:active   { color: lightgreen;  }
+
+footer > p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}

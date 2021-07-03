@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Angela's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<!-- HTML elements required:
+  h1, h2, h3, p, ul, ol, img, a, hr
+  semantic containers like main, article, and footer
+  styled links using pseudo-classes 
+-->
+
+  <body>
+    <header>
+      <h1>Angela Louh</h1>
+      <p>Software Engineer</p>
+    </header>
+
+    <main>
+      <article>
+        <div>
+          <img src="images/profile-photo.JPG" alt="Profile Picture">
+        </div>
+          
+        <!-- 
+            Intro Section:
+            1. Who I am
+            2. Where am I located
+        -->
+
+        <div class="intro">
+          <h2>Hello, my name is Angela!</h2>
+          <h3><i>I am currently studying to become a software engineer in the Bay Area, CA. Please take a moment to look around my first website!</i></h3>
+        </div>
+
+        <!--
+          About Me Section:
+          1. Description that shows my passion for web development and my willingness to work with others.
+          2. 1-2 sentences that describe my other interests
+        -->
+
+        <div class="main-content">
+          <h2>About Me</h2>
+            <p>
+              In college, my goal was to go into the Health Care industry, and after graduating from Boston University, I worked as a medical scribe for many years. While working as a medical scribe, I, unfortunately, realized a career in medicine was not for me, but I simultaneously started developing an interest in software development. Thanks to the support and encouragement of my friends and family, I decided to take the leap and pursue a career change.
+            </p>
+            <p>
+              I am now a student in the Software Engineering Flex Program at Thinkful and the more I learn about software development, the more I am enjoying it. Not only is the work fun and challenging, but it is also rewarding to see my code run without issues.
+            </p>
+            <p>
+              As I continue my studies at Thinkful, I would love the opportunity to work with others. If anyone is looking to collaborate on a project together, please <a href="#contact"> reach out</a>!
+              <!-- Link "reach out" to the anchor's id below -->
+            </p>
+            
+          <hr>
+    
+          <h2>Interests</h2>
+            <p>
+              When I am not studying, I like to spend my time on the following activities:
+            </p>
+            <ul class="interests-list">
+              <li>Ultimate frisbee</li>
+              <li>Video games</li>
+              <li>Trivia</li>
+              <li>Watching sports, movies and TV shows with friends</li>
+            </ul>
+        </div>
+
+        <!--
+          Contact Section:
+          1. Link to LinkedIn profile
+          2. Link to my GitHub profile
+          3. Link to my email (optional)
+
+          Assign an id attribute to the contact section of the page for the "reach out" link to link to.
+        -->
+
+        <div id="contact" class="contact-angela">
+          <h2>Contact Angela</h2>
+          <p><b>I'd love to hear from you! Please feel free to contact or follow me on these platforms:</b></p>
+            <ol class="contacts-list"><b>
+              <li><a href="https://www.linkedin.com/in/angela-louh-38318359/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/angelalouh" target="_blank">GitHub</a></li>
+              <li><a href="mailto:louh.angela@gmail.com" target="_blank">Email Me</a></li>
+            </b></ol>
+        </div>
+      </article>
+
+      <footer>
+        <p>&copy; Angela Louh</p>
+      </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
