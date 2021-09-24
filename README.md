@@ -6,6 +6,9 @@ In my portfolio you will find introductory information about myself, my interest
 ## Links
 - You can view my website [here](https://angelalouh.github.io/Web-Portfolio/).
 
+## Screenshot
+![website screenshot](/screenshots/web-portfolio-screenshot.jpg)
+
 ## Technology
 ### Built With:
 - HTML and CSS
